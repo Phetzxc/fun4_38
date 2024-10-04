@@ -21,7 +21,7 @@ echo 'source ~/fun4_38/install/setup.bash' >> ~/.bashrc
 ros2 launch example_description launch_all.launch.py
 ```
 ภาพจำลองworkspaceจะขึ้นมาทุกครั้ง
-![image](https://github.com/user-attachments/assets/6b8da4d4-0b3d-458e-bb2e-db1bf647973f)
+![image](https://github.com/user-attachments/assets/6b8da4d4-0b3d-458e-bb2e-db1bf647973f) ![image1](https://github.com/user-attachments/assets/d029143a-f2d3-4d93-a2f6-d59d1da2a2f5)
 
 ### 2. Node สำหรับสุ่มเป้าหมาย (0.5 คะแนน)
 สร้าง node ที่สุ่มตำแหน่งเป้าหมายของแขนกลภายใน workspace และ pub topic `/target`:
