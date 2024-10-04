@@ -38,8 +38,10 @@ ros2 topic echo /target
 ```bash
 ros2 topic echo /end_effector
 ```
+![endeff](https://github.com/user-attachments/assets/d8e3dab6-41f2-40d2-be1c-e1b3fd2b50f6)
 
 ทั้งตำแหน่งของ `/target` และ `/end_effector` จะถูกแสดงใน **RVIZ2** โดยตำแหน่งเริ่มต้นของ `/target` จะอยู่ที่ `(0, 0, 0)` และจะถูกสุ่มใหม่ในโหมด Auto
+![endeff2](https://github.com/user-attachments/assets/9101e772-d7e4-4bae-9fe9-7da73762445e)
 
 ---
 
@@ -62,7 +64,7 @@ ros2 launch example_description launch_all.launch.py
 ```bash
 ros2 run example_description controller.py
 ```
-
+![git](https://github.com/user-attachments/assets/7df18872-1e62-4eba-9753-c40944914292)
 ### 2. Control mode
 
 #### mode 0: Inverse Pose Kinematics (IPK) – (2 คะแนน)
@@ -72,6 +74,7 @@ ros2 run example_description controller.py
   ```bash
   ros2 run example_description controller.py 0 <X> <Y> <Z>
   ```
+![git2](https://github.com/user-attachments/assets/fcfe508a-35b7-4635-8e86-bf7931b655d0)
 
 - หากตำแหน่งนั้นอยู่ภายใน workspace ระบบจะส่งคำสั่งให้แขนกลเคลื่อนที่ไปยังเป้าหมาย พร้อมส่งค่า solution กลับมา
 - หากตำแหน่งนั้นอยู่นอก workspace ระบบจะส่งค่า `False` กลับมา และแขนกลจะไม่เคลื่อนที่ไปไหน
@@ -86,6 +89,7 @@ ros2 run example_description controller.py
   ```bash
   ros2 run example_description controller.py 1 <0 หรือ 1>
   ```
+![git3](https://github.com/user-attachments/assets/46e712d6-c139-48d5-9470-23ab283faca3)
 
  `0` หมายถึง Reference กับปลายมือ และ `1` หมายถึงReferenceจากฐานของหุ่นยนต์
 
@@ -104,6 +108,8 @@ ros2 run example_description controller.py
   ```bash
   ros2 run example_description controller.py 2
   ```
+![git4](https://github.com/user-attachments/assets/62fed749-d1d6-4176-bee8-9c7eb9a20dc6)
+![git5](https://github.com/user-![git](https://github.com/user-attachments/assets/1baf05e2-85b3-4772-befe-0c8a8ccd3722)/assets/5be05df3-2cdd-4f26-80ce-a91fe7ae9717)
 
 หากไปถึงเป้าหมายสำเร็จ ระบบจะส่งข้อความกลับมา และเริ่มการสุ่มเป้าหมายใหม่ต่อไป
 
