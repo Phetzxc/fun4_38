@@ -94,10 +94,10 @@ ros2 run example_description controller.py
  `0` หมายถึง Reference กับปลายมือ และ `1` หมายถึงReferenceจากฐานของหุ่นยนต์
 
 หลัง run จะมีหน้าต่างเด้งขึ้นมาเพื่อให้ใช้ควบคุมทิศทางด้วยปุ่ม:
-
 - `a`, `s`, `d`: เคลื่อนที่แกน x, y, z
 - `f`, `g`, `h`: เคลื่อนที่ในทิศทางตรงกันข้าม
 - `q`: ออกจากโหมด Teleoperation
+![git5](https://github.com/user-attachments/assets/00b86bc0-dde3-4ff2-955c-e27f698d02d3)
 
 หุ่นยนต์จะหยุดเคลื่อนที่ทันทีหากตรวจพบว่าสภาพการเคลื่อนที่เข้าสู่ singularity และจะมีการแจ้งเตือนผ่านข้อความ
 ![git7](https://github.com/user-attachments/assets/99a100cd-e365-4459-9447-0fc97dfe6863)
@@ -110,7 +110,6 @@ ros2 run example_description controller.py
   ros2 run example_description controller.py 2
   ```
 ![git4](https://github.com/user-attachments/assets/62fed749-d1d6-4176-bee8-9c7eb9a20dc6)
-![git5](https://github.com/user-attachments/assets/00b86bc0-dde3-4ff2-955c-e27f698d02d3)
 
 หากไปถึงเป้าหมายสำเร็จ ระบบจะส่งข้อความกลับมา และเริ่มการสุ่มเป้าหมายใหม่ต่อไป
 ![git8](https://github.com/user-attachments/assets/4eda572d-afac-4a29-8ddb-8e8410f6cf74)
