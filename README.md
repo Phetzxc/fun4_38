@@ -20,12 +20,11 @@ echo 'source ~/fun4_38/install/setup.bash' >> ~/.bashrc
 ```bash
 ros2 launch example_description launch_all.launch.py
 ```
+![](
+file:///home/phet/Downloads/image.png
+)
 
-หรือเพื่อแสดง workspace โดยตรง:
 
-```bash
-ros2 run example_description plot_ws.py
-```
 ภาพจำลองworkspaceจะขึ้นมาทุกครั้ง
 
 ### 2. Node สำหรับสุ่มเป้าหมาย (0.5 คะแนน)
