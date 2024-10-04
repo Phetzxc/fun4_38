@@ -5,7 +5,14 @@
 # 3 DOF ROBOT
 
 ## Part 1: Setup Environment (2 คะแนน)
-clone github ลงมา 
+clone github ลงมาผ่านคำสั่ง
+```bash
+cd
+https://github.com/Phetzxc/fun4_38.git
+cd fun4_38
+colcon build
+source install/setup.bash
+```
 ### 1. หา workspace ของแขนกลพร้อมวิธีการตรวจสอบคําตอบ (1 คะแนน)
 แสดง workspace ของแขนกล ใช้คำสั่งดังนี้:
 
