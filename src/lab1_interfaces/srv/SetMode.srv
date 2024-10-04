@@ -1,0 +1,14 @@
+std_msgs/UInt8 mode
+std_msgs/Float64 x
+std_msgs/Float64 y
+std_msgs/Float64 z
+std_msgs/UInt8 newtarget
+---
+std_msgs/UInt8 result
+std_msgs/UInt8 ipk
+std_msgs/Float64 q0sol
+std_msgs/Float64 q1sol
+std_msgs/Float64 q2sol
+std_msgs/Float64 ranx
+std_msgs/Float64 rany
+std_msgs/Float64 ranz
