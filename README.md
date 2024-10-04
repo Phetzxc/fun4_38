@@ -12,6 +12,7 @@ git clone https://github.com/Phetzxc/fun4_38.git
 cd fun4_38
 colcon build
 source install/setup.bash
+echo 'source ~/fun4_38/install/setup.bash' >> ~/.bashrc
 ```
 ### 1. หา workspace ของแขนกลพร้อมวิธีการตรวจสอบคําตอบ (1 คะแนน)
 แสดง workspace ของแขนกล ใช้คำสั่งดังนี้:
