@@ -100,6 +100,7 @@ ros2 run example_description controller.py
 - `q`: ออกจากโหมด Teleoperation
 
 หุ่นยนต์จะหยุดเคลื่อนที่ทันทีหากตรวจพบว่าสภาพการเคลื่อนที่เข้าสู่ singularity และจะมีการแจ้งเตือนผ่านข้อความ
+![git7](https://github.com/user-attachments/assets/99a100cd-e365-4459-9447-0fc97dfe6863)
 
 #### โหมด 2: Auto – (2 คะแนน)
 ในโหมดนี้แขนกลจะเคลื่อนที่ไปยังตำแหน่งที่สุ่มได้ภายใน workspace โดยมีเวลา 10 วินาทีเพื่อไปถึงเป้าหมาย
@@ -109,9 +110,10 @@ ros2 run example_description controller.py
   ros2 run example_description controller.py 2
   ```
 ![git4](https://github.com/user-attachments/assets/62fed749-d1d6-4176-bee8-9c7eb9a20dc6)
-![git5](https://github.com/user-![git](https://github.com/user-attachments/assets/1baf05e2-85b3-4772-befe-0c8a8ccd3722)/assets/5be05df3-2cdd-4f26-80ce-a91fe7ae9717)
+![git5](https://github.com/user-attachments/assets/00b86bc0-dde3-4ff2-955c-e27f698d02d3)
 
 หากไปถึงเป้าหมายสำเร็จ ระบบจะส่งข้อความกลับมา และเริ่มการสุ่มเป้าหมายใหม่ต่อไป
+![git8](https://github.com/user-attachments/assets/4eda572d-afac-4a29-8ddb-8e8410f6cf74)
 
 ---
 
@@ -145,4 +147,10 @@ ros2 run example_description controller.py
   ```
 
 ---
+## ทดเขียน diagram และrqt_graph ที่ได้
+- **กระดาษทด diagram**
+![CLIENT1](https://github.com/user-attachments/assets/1dee51a8-9821-417a-abce-c6dc99c3015f)
+- **rqt_graph**
+![image](https://github.com/user-attachments/assets/10a14844-267c-47cf-b049-a067421c31d9)
 
+---
