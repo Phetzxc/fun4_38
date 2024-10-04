@@ -20,19 +20,10 @@ echo 'source ~/fun4_38/install/setup.bash' >> ~/.bashrc
 ```bash
 ros2 launch example_description launch_all.launch.py
 ```
-![](
-file:///home/phet/Downloads/image.png
-)
-
-
 ภาพจำลองworkspaceจะขึ้นมาทุกครั้ง
 
 ### 2. Node สำหรับสุ่มเป้าหมาย (0.5 คะแนน)
 สร้าง node ที่สุ่มตำแหน่งเป้าหมายของแขนกลภายใน workspace และ pub topic `/target`:
-เพื่อแสดง node โดยตรง:
-```bash
-ros2 run example_description random_target.py
-```
 
 เพื่อดูตำแหน่งของเป้าหมายใน **RVIZ2** ให้ใช้คำสั่ง:
 
