@@ -8,7 +8,7 @@
 clone github ลงมาผ่านคำสั่ง
 ```bash
 cd
-https://github.com/Phetzxc/fun4_38.git
+git clone https://github.com/Phetzxc/fun4_38.git
 cd fun4_38
 colcon build
 source install/setup.bash
