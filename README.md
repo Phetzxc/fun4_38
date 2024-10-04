@@ -1,7 +1,5 @@
 
 ---
-นี่คือตัวอย่างการแสดงภาพใน README:
-
 # 3 DOF ROBOT
 
 ## Part 1: Setup Environment (2 คะแนน)
