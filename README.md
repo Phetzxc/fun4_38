@@ -21,6 +21,7 @@ echo 'source ~/fun4_38/install/setup.bash' >> ~/.bashrc
 ros2 launch example_description launch_all.launch.py
 ```
 ภาพจำลองworkspaceจะขึ้นมาทุกครั้ง
+
 ![image](https://github.com/user-attachments/assets/6b8da4d4-0b3d-458e-bb2e-db1bf647973f)
 ### 2. Node สำหรับสุ่มเป้าหมาย (0.5 คะแนน)
 สร้าง node ที่สุ่มตำแหน่งเป้าหมายของแขนกลภายใน workspace และ pub topic `/target`:
@@ -41,6 +42,7 @@ ros2 topic echo /end_effector
 ![endeff](https://github.com/user-attachments/assets/d8e3dab6-41f2-40d2-be1c-e1b3fd2b50f6)
 
 ทั้งตำแหน่งของ `/target` และ `/end_effector` จะถูกแสดงใน **RVIZ2** โดยตำแหน่งเริ่มต้นของ `/target` จะอยู่ที่ `(0, 0, 0)` และจะถูกสุ่มใหม่ในโหมด Auto
+
 ![endeff2](https://github.com/user-attachments/assets/9101e772-d7e4-4bae-9fe9-7da73762445e)
 
 ---
@@ -97,9 +99,11 @@ ros2 run example_description controller.py
 - `a`, `s`, `d`: เคลื่อนที่แกน x, y, z
 - `f`, `g`, `h`: เคลื่อนที่ในทิศทางตรงกันข้าม
 - `q`: ออกจากโหมด Teleoperation
+- 
 ![git5](https://github.com/user-attachments/assets/00b86bc0-dde3-4ff2-955c-e27f698d02d3)
 
 หุ่นยนต์จะหยุดเคลื่อนที่ทันทีหากตรวจพบว่าสภาพการเคลื่อนที่เข้าสู่ singularity และจะมีการแจ้งเตือนผ่านข้อความ
+
 ![git7](https://github.com/user-attachments/assets/99a100cd-e365-4459-9447-0fc97dfe6863)
 
 #### โหมด 2: Auto – (2 คะแนน)
@@ -112,6 +116,7 @@ ros2 run example_description controller.py
 ![git4](https://github.com/user-attachments/assets/62fed749-d1d6-4176-bee8-9c7eb9a20dc6)
 
 หากไปถึงเป้าหมายสำเร็จ ระบบจะส่งข้อความกลับมา และเริ่มการสุ่มเป้าหมายใหม่ต่อไป
+
 ![git8](https://github.com/user-attachments/assets/4eda572d-afac-4a29-8ddb-8e8410f6cf74)
 
 ---
